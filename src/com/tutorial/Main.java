@@ -8,6 +8,7 @@ public class Main {
 
         HeroStrength hero2 = new HeroStrength();
         hero2.name = "Ucup";
+        hero2.defencePower = 100;
         hero2.display();
     }
 }
