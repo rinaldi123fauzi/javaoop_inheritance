@@ -9,4 +9,8 @@ public class HeroStrength extends Hero {
         System.out.println("Hero Name : " + this.name);
         System.out.println("Defence Power : " + this.defencePower);
     }
+
+    public void show(){
+       System.out.println(super.setExample());
+    }
 }
